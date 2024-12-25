@@ -97,7 +97,7 @@ BlackforestLoot3:
     weight: 1.0
 ## SwampLoot1
 # MWL_GuckPit1 (15), MWL_SwampHouse1 (20), MWL_SwampRuin1 (25), MWL_SwampTower1 (20), MWL_SwampTower3 (25), MWL_SwampWell1 (20), MWL_SwampAltar1 (15), MWL_SwampGrave1 (25)
-#
+# Just a chance to get a rare runestone, find the elusive turnip seed or get some coin.
 SwampLoot1:
   - item: RunestoneRare
     stackMin: 1
@@ -113,7 +113,7 @@ SwampLoot1:
     weight: 1.0
 ## SwampLoot2
 # MWL_SwampAltar2 (10), MWL_SwampAltar3 (10), MWL_SwampAltar4 (10), 
-#
+# Just a chance to get a rare runestone, find the elusive turnip seed or get easy guck.
 SwampLoot2:
   - item: RunestoneRare
     stackMin: 0
@@ -129,7 +129,7 @@ SwampLoot2:
     weight: 1.0
 ## SwampLoot3
 # MWL_SwampTower2 (25), MWL_SwampCastle2 (10)
-#
+# Increased rare runestones, added in chains, and increase coin loot.
 SwampLoot3:
   - item: RunestoneRare
     stackMin: 1
@@ -145,7 +145,7 @@ SwampLoot3:
     weight: 1.0
 ## MountainsLoot1
 # MWL_StoneTavern1 (10), MWL_StoneTower1 (10), MWL_StoneTower2 (10), MWL_WoodBarn1 (10), MWL_WoodFarm1 (10)
-#
+# This is mainly because I used BC in world gen and there are very little frost caves. Just another way to find loot from caves.
 MountainsLoot1:
   - item: WolfHairBundle
     stackMin: 5
@@ -161,7 +161,7 @@ MountainsLoot1:
     weight: 1.0
 ## MountainsLoot2
 # MWL_StoneCastle1 (5), MWL_StoneFort1 (5), MWL_StoneHall1 (5), MWL_WoodHouse1 (5)
-#
+# This is mainly because I used BC in world gen and there are very little frost caves. Just another way to find loot from caves.
 MountainsLoot2:
   - item: WolfClaw
     stackMin: 5
@@ -177,65 +177,65 @@ MountainsLoot2:
     weight: 1.0
 ## PlainsLoot1
 # MWL_FulingTower1 (20), MWL_GoblinCave1 (20), MWL_FulingTemple2 (20), MWL_FulingTemple3 (20), MWL_FulingWall1 (20)
-#
+# 
 PlainsLoot1:
-  - item: Dandelion
-    stackMin: 5
-    stackMax: 10
-    weight: 1.5
-  - item: Stone
-    stackMin: 5
-    stackMax: 10
-    weight: 2.0
-  - item: Wood
-    stackMin: 5
-    stackMax: 10
+  - item: Coins
+    stackMin: 65
+    stackMax: 150
+    weight: 1.0
+  - item: RunestoneLegenday
+    stackMin: 0
+    stackMax: 3
+    weight: 1.0
+  - item: RunestoneRelic
+    stackMin: 0
+    stackMax: 2
     weight: 1.0
 ## PlainsLoot2
 # MWL_GoblinFort1 (10), MWL_FulingRock1 (15), MWL_FulingVillage1 (15), MWL_FulingVillage2 (15), MWL_PlainsPillar1 (15), MWL_FulingTemple1 (15)
 #
 PlainsLoot2:
-  - item: Dandelion
-    stackMin: 5
-    stackMax: 10
-    weight: 1.5
-  - item: Stone
-    stackMin: 5
-    stackMax: 10
-    weight: 2.0
-  - item: Wood
-    stackMin: 5
-    stackMax: 10
+  - item: Coins
+    stackMin: 65
+    stackMax: 150
+    weight: 1.0
+  - item: RunestoneLegenday
+    stackMin: 0
+    stackMax: 3
+    weight: 1.0
+  - item: RunestoneRelic
+    stackMin: 0
+    stackMax: 2
     weight: 1.0
 ## MistlandsLoot1:
 # MWL_MistFort2 (20), MWL_MistTower1 (20), MWL_MistTower2 (25), WL_MistHut1
 #
 MistLoot1:
-  - item: Dandelion
-    stackMin: 5
-    stackMax: 10
-    weight: 1.5
-  - item: Stone
-    stackMin: 5
-    stackMax: 10
-    weight: 2.0
-  - item: Wood
-    stackMin: 5
-    stackMax: 10
+  - item: Coins
+    stackMin: 75
+    stackMax: 165
+    weight: 1.0
+  - item: RunestoneLegenday
+    stackMin: 1
+    stackMax: 4
+    weight: 1.0
+  - item: RunestoneRelic
+    stackMin: 1
+    stackMax: 3
     weight: 1.0
 ## MistlandsLoot2:
 # MWL_SecretRoom1 (15), MWL_MistWorkshop1 (25), MWL_MistWall1 (15)
 #
 MistLoot2:
-  - item: Dandelion
-    stackMin: 5
-    stackMax: 10
-    weight: 1.5
-  - item: Stone
-    stackMin: 5
-    stackMax: 10
-    weight: 2.0
-  - item: Wood
-    stackMin: 5
-    stackMax: 10
+  - item: Coins
+    stackMin: 65
+    stackMax: 150
+    weight: 1.0
+  - item: RunestoneLegenday
+    stackMin: 1
+    stackMax: 4
+    weight: 1.0
+  - item: RunestoneRelic
+    stackMin: 1
+    stackMax: 3
     weight: 1.0
