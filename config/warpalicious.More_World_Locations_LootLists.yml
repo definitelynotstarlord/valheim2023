@@ -1,1 +1,241 @@
-
+version: 2.0
+## MeadowsLoot1
+# Distance from Spawn: 0-500: MWL_Ruins1 (5), MWL_Ruins3 (25), MWL_Ruins7 (2), MWL_RuinsWell1 (2)
+# Close to spawn, will just provide loot to help you along at the very start of the playthrough.
+MeadowsLoot1:
+  - item: DeerMeat
+    stackMin: 5
+    stackMax: 15
+    weight: 1.0
+  - item: RawMeat
+    stackMin: 5
+    stackMax: 15
+    weight: 1.0
+  - item: Wood
+    stackMin: 25
+    stackMax: 125
+    weight: 1.0
+## MeadowsLoot2
+# Distance from Spawn: 500-2000: MWL_Ruins2 (15), MWL_RuinsArena3 (25), MWL_RuinsChurch1 (25)
+# These structures will be a bit further away, help with some crafting items.
+MeadowsLoot2:
+  - item: DeerHide
+    stackMin: 5
+    stackMax: 15
+    weight: 1.0
+  - item: LeatherScraps
+    stackMin: 5
+    stackMax: 15
+    weight: 1.0
+  - item: FineWood
+    stackMin: 25
+    stackMax: 125
+    weight: 1.0
+## MeadowsLoot3:
+# Distance from Spawn: 1500-3000: MWL_Ruins6 (5), MWL_Ruins8 (5), MWL_RuinsArena1 (25)
+# These locations are very far away. To encourage exploring all Meadows, very good EL Runestones loot.
+MeadowsLoot3:
+  - item: RunestoneRelic
+    stackMin: 1
+    stackMax: 2
+    weight: 1.0
+  - item: RunestoneLegendary
+    stackMin: 1
+    stackMax: 6
+    weight: 1.0
+  - item: RunestoneZodiac
+    stackMin: 1
+    stackMax: 8
+    weight: 1.0
+## BlackforestLoot1
+# Distance from Spawn: 500-2000: MWL_RuinsCastle1 (15), MWL_RuinsTower3 (15), MWL_RuinsTower8 (10), MWL_WoodTower1 (10)
+# Another minor source for SurtlingCores and valuables to help with early game gold.
+BlackforestLoot1:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## BlackforestLoot2
+# Distance from Spawn: 1500-3000: MWL_RuinsCastle3 (5). MWL_Tavern1 (15), MWL_WoodTower2 (10), MWL_WoodTower3 (10)
+# Potential for a lot of SurtlingCores and a lot of gold. This hopefully eliminates having to backtrack and raid chambers for cores.
+BlackforestLoot2:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## BlackforestLoot3
+# Distance from Spawn: 2500-4000: MWL_RuinsArena2 (5)
+# Very, very good crafting loot.
+BlackforestLoot3:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## SwampLoot1
+# MWL_GuckPit1 (15), MWL_SwampHouse1 (20), MWL_SwampRuin1 (25), MWL_SwampTower1 (20), MWL_SwampTower3 (25), MWL_SwampWell1 (20), MWL_SwampAltar1 (15), MWL_SwampGrave1 (25)
+#
+SwampLoot1:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## SwampLoot2
+# MWL_SwampAltar2 (10), MWL_SwampAltar3 (10), MWL_SwampAltar4 (10), 
+#
+SwampLoot2:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## SwampLoot3
+# MWL_SwampTower2 (25), MWL_SwampCastle2 (10)
+#
+SwampLoot3:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## MountainsLoot1
+# MWL_StoneTavern1 (10), MWL_StoneTower1 (10), MWL_StoneTower2 (10), MWL_WoodBarn1 (10), MWL_WoodFarm1 (10)
+#
+MountainsLoot1:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## MountainsLoot2
+# MWL_StoneCastle1 (5), MWL_StoneFort1 (5), MWL_StoneHall1 (5), MWL_WoodHouse1 (5)
+#
+MountainsLoot2:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## PlainsLoot1
+# MWL_FulingTower1 (20), MWL_GoblinCave1 (20), MWL_FulingTemple2 (20), MWL_FulingTemple3 (20), MWL_FulingWall1 (20)
+#
+PlainsLoot1:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## PlainsLoot2
+# MWL_GoblinFort1 (10), MWL_FulingRock1 (15), MWL_FulingVillage1 (15), MWL_FulingVillage2 (15), MWL_PlainsPillar1 (15), MWL_FulingTemple1 (15)
+#
+PlainsLoot2:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## MistlandsLoot1:
+# MWL_MistFort2 (20), MWL_MistTower1 (20), MWL_MistTower2 (25), WL_MistHut1
+#
+MistLoot1:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
+## MistlandsLoot2:
+# MWL_SecretRoom1 (15), MWL_MistWorkshop1 (25), MWL_MistWall1 (15)
+#
+MistLoot2:
+  - item: Dandelion
+    stackMin: 5
+    stackMax: 10
+    weight: 1.5
+  - item: Stone
+    stackMin: 5
+    stackMax: 10
+    weight: 2.0
+  - item: Wood
+    stackMin: 5
+    stackMax: 10
+    weight: 1.0
