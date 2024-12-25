@@ -49,17 +49,17 @@ MeadowsLoot3:
     weight: 1.0
 ## BlackforestLoot1
 # Distance from Spawn: 500-2000: MWL_RuinsCastle1 (15), MWL_RuinsTower3 (15), MWL_RuinsTower8 (10), MWL_WoodTower1 (10)
-# Another minor source for SurtlingCores and valuables to help with early game gold.
+# Another source for SurtlingCores and valuables to help with early game gold.
 BlackforestLoot1:
-  - item: Dandelion
-    stackMin: 5
+  - item: SurtlingCore
+    stackMin: 1
     stackMax: 10
-    weight: 1.5
-  - item: Stone
+    weight: 1.0
+  - item: AmberPearl
     stackMin: 5
-    stackMax: 10
-    weight: 2.0
-  - item: Wood
+    stackMax: 20
+    weight: 1.0
+  - item: Ruby
     stackMin: 5
     stackMax: 10
     weight: 1.0
@@ -67,46 +67,46 @@ BlackforestLoot1:
 # Distance from Spawn: 1500-3000: MWL_RuinsCastle3 (5). MWL_Tavern1 (15), MWL_WoodTower2 (10), MWL_WoodTower3 (10)
 # Potential for a lot of SurtlingCores and a lot of gold. This hopefully eliminates having to backtrack and raid chambers for cores.
 BlackforestLoot2:
-  - item: Dandelion
-    stackMin: 5
-    stackMax: 10
-    weight: 1.5
-  - item: Stone
-    stackMin: 5
-    stackMax: 10
-    weight: 2.0
-  - item: Wood
-    stackMin: 5
-    stackMax: 10
+  - item: SurtlingCore
+    stackMin: 8
+    stackMax: 25
+    weight: 1.0
+  - item: Coins
+    stackMin: 100
+    stackMax: 300
+    weight: 1.0
+  - item: Ruby
+    stackMin: 10
+    stackMax: 30
     weight: 1.0
 ## BlackforestLoot3
 # Distance from Spawn: 2500-4000: MWL_RuinsArena2 (5)
-# Very, very good crafting loot.
+# Very good EL Runestones. Not many of these locations will exist.
 BlackforestLoot3:
-  - item: Dandelion
-    stackMin: 5
-    stackMax: 10
-    weight: 1.5
-  - item: Stone
-    stackMin: 5
-    stackMax: 10
-    weight: 2.0
-  - item: Wood
-    stackMin: 5
-    stackMax: 10
+  - item: RunestoneRelic
+    stackMin: 1
+    stackMax: 3
+    weight: 1.0
+  - item: RunestoneLegendary
+    stackMin: 2
+    stackMax: 6
+    weight: 1.0
+  - item: RunestoneZodiac
+    stackMin: 3
+    stackMax: 8
     weight: 1.0
 ## SwampLoot1
 # MWL_GuckPit1 (15), MWL_SwampHouse1 (20), MWL_SwampRuin1 (25), MWL_SwampTower1 (20), MWL_SwampTower3 (25), MWL_SwampWell1 (20), MWL_SwampAltar1 (15), MWL_SwampGrave1 (25)
 #
 SwampLoot1:
-  - item: Dandelion
-    stackMin: 5
-    stackMax: 10
-    weight: 1.5
+  - item: RunestoneRare
+    stackMin: 0
+    stackMax: 1
+    weight: 1.0
   - item: Stone
     stackMin: 5
     stackMax: 10
-    weight: 2.0
+    weight: 1.0
   - item: Wood
     stackMin: 5
     stackMax: 10
@@ -115,14 +115,14 @@ SwampLoot1:
 # MWL_SwampAltar2 (10), MWL_SwampAltar3 (10), MWL_SwampAltar4 (10), 
 #
 SwampLoot2:
-  - item: Dandelion
+  - item: RunestoneRare
     stackMin: 5
     stackMax: 10
-    weight: 1.5
+    weight: 1.0
   - item: Stone
     stackMin: 5
     stackMax: 10
-    weight: 2.0
+    weight: 1.0
   - item: Wood
     stackMin: 5
     stackMax: 10
@@ -131,14 +131,14 @@ SwampLoot2:
 # MWL_SwampTower2 (25), MWL_SwampCastle2 (10)
 #
 SwampLoot3:
-  - item: Dandelion
+  - item: RunestoneRare
     stackMin: 5
     stackMax: 10
-    weight: 1.5
+    weight: 1.0
   - item: Stone
     stackMin: 5
     stackMax: 10
-    weight: 2.0
+    weight: 1.0
   - item: Wood
     stackMin: 5
     stackMax: 10
