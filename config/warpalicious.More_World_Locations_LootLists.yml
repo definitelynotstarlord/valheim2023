@@ -107,9 +107,9 @@ SwampLoot1:
     stackMin: 0
     stackMax: 1
     weight: 1.0
-  - item: Entrails
-    stackMin: 1
-    stackMax: 10
+  - item: Coins
+    stackMin: 10
+    stackMax: 50
     weight: 1.0
 ## SwampLoot2
 # MWL_SwampAltar2 (10), MWL_SwampAltar3 (10), MWL_SwampAltar4 (10), 
@@ -119,13 +119,13 @@ SwampLoot2:
     stackMin: 0
     stackMax: 2
     weight: 1.0
-  - item: Entrails
+  - item: Guck
     stackMin: 5
     stackMax: 15
     weight: 1.0
-  - item: Bloodbag
-    stackMin: 5
-    stackMax: 15
+  - item: Coins
+    stackMin: 20
+    stackMax: 80
     weight: 1.0
 ## SwampLoot3
 # MWL_SwampTower2 (25), MWL_SwampCastle2 (10)
@@ -135,45 +135,45 @@ SwampLoot3:
     stackMin: 1
     stackMax: 3
     weight: 1.0
-  - item: Guck
-    stackMin: 5
-    stackMax: 15
-    weight: 1.0
   - item: Chain
     stackMin: 2
-    stackMax: 5
+    stackMax: 6
+    weight: 1.0
+  - item: Coins
+    stackMin: 50
+    stackMax: 100
     weight: 1.0
 ## MountainsLoot1
 # MWL_StoneTavern1 (10), MWL_StoneTower1 (10), MWL_StoneTower2 (10), MWL_WoodBarn1 (10), MWL_WoodFarm1 (10)
 #
 MountainsLoot1:
-  - item: Dandelion
+  - item: WolfHairBundle
     stackMin: 5
-    stackMax: 10
-    weight: 1.5
-  - item: Stone
-    stackMin: 5
-    stackMax: 10
-    weight: 2.0
-  - item: Wood
-    stackMin: 5
-    stackMax: 10
+    stackMax: 15
+    weight: 1.0
+  - item: JuteRed
+    stackMin: 10
+    stackMax: 25
+    weight: 1.0
+  - item: TrophyUlv
+    stackMin: 0
+    stackMax: 1
     weight: 1.0
 ## MountainsLoot2
 # MWL_StoneCastle1 (5), MWL_StoneFort1 (5), MWL_StoneHall1 (5), MWL_WoodHouse1 (5)
 #
 MountainsLoot2:
-  - item: Dandelion
+  - item: WolfClaw
     stackMin: 5
-    stackMax: 10
-    weight: 1.5
-  - item: Stone
-    stackMin: 5
-    stackMax: 10
-    weight: 2.0
-  - item: Wood
-    stackMin: 5
-    stackMax: 10
+    stackMax: 15
+    weight: 1.0
+  - item: TrophyFenring
+    stackMin: 0
+    stackMax: 1
+    weight: 1.0
+  - item: TrophyCultist
+    stackMin: 0
+    stackMax: 1
     weight: 1.0
 ## PlainsLoot1
 # MWL_FulingTower1 (20), MWL_GoblinCave1 (20), MWL_FulingTemple2 (20), MWL_FulingTemple3 (20), MWL_FulingWall1 (20)
