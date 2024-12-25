@@ -100,15 +100,15 @@ BlackforestLoot3:
 #
 SwampLoot1:
   - item: RunestoneRare
+    stackMin: 1
+    stackMax: 2
+    weight: 1.0
+  - item: TurnipSeeds
     stackMin: 0
     stackMax: 1
     weight: 1.0
-  - item: Stone
-    stackMin: 5
-    stackMax: 10
-    weight: 1.0
-  - item: Wood
-    stackMin: 5
+  - item: Entrails
+    stackMin: 1
     stackMax: 10
     weight: 1.0
 ## SwampLoot2
@@ -116,32 +116,32 @@ SwampLoot1:
 #
 SwampLoot2:
   - item: RunestoneRare
-    stackMin: 5
-    stackMax: 10
+    stackMin: 0
+    stackMax: 2
     weight: 1.0
-  - item: Stone
+  - item: Entrails
     stackMin: 5
-    stackMax: 10
+    stackMax: 15
     weight: 1.0
-  - item: Wood
+  - item: Bloodbag
     stackMin: 5
-    stackMax: 10
+    stackMax: 15
     weight: 1.0
 ## SwampLoot3
 # MWL_SwampTower2 (25), MWL_SwampCastle2 (10)
 #
 SwampLoot3:
   - item: RunestoneRare
-    stackMin: 5
-    stackMax: 10
+    stackMin: 1
+    stackMax: 3
     weight: 1.0
-  - item: Stone
+  - item: Guck
     stackMin: 5
-    stackMax: 10
+    stackMax: 15
     weight: 1.0
-  - item: Wood
-    stackMin: 5
-    stackMax: 10
+  - item: Chain
+    stackMin: 2
+    stackMax: 5
     weight: 1.0
 ## MountainsLoot1
 # MWL_StoneTavern1 (10), MWL_StoneTower1 (10), MWL_StoneTower2 (10), MWL_WoodBarn1 (10), MWL_WoodFarm1 (10)
