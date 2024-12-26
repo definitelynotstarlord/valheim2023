@@ -183,7 +183,7 @@ PlainsLoot1:
     stackMin: 65
     stackMax: 150
     weight: 1.0
-  - item: RunestoneLegenday
+  - item: RunestoneLegendary
     stackMin: 0
     stackMax: 3
     weight: 1.0
@@ -199,7 +199,7 @@ PlainsLoot2:
     stackMin: 65
     stackMax: 150
     weight: 1.0
-  - item: RunestoneLegenday
+  - item: RunestoneLegendary
     stackMin: 0
     stackMax: 3
     weight: 1.0
@@ -215,7 +215,7 @@ MistLoot1:
     stackMin: 75
     stackMax: 165
     weight: 1.0
-  - item: RunestoneLegenday
+  - item: RunestoneLegendary
     stackMin: 1
     stackMax: 4
     weight: 1.0
@@ -231,7 +231,7 @@ MistLoot2:
     stackMin: 65
     stackMax: 150
     weight: 1.0
-  - item: RunestoneLegenday
+  - item: RunestoneLegendary
     stackMin: 1
     stackMax: 4
     weight: 1.0
