@@ -1,3 +1,5 @@
 # valheim2023
 
-This will be a location I can add stuff for my "valheim2023" server for my friends and family. Currently based off Majestic's "RelicHeim".
+I am just uploading all of my configs here to keep better track of the changes I make to our family and friends Valheim server.
+
+This pack is built off Majestic's awesome RelicHeim modpack. I have made various changes to his exeptional work as well as adding in many more mods. 
