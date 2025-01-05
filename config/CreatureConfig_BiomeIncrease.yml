@@ -1,0 +1,28 @@
+Meadows:
+  key_defeated_eikthyr:
+   effect:
+    Aggressive: 25
+BlackForest:
+  key_defeated_gdking:
+   effect:
+    Aggressive: 25
+Swamp:
+  key_defeated_Bonemass:
+   effect:
+    Aggressive: 25
+Mountain:
+  key_defeated_Dragon:
+   effect:
+    Aggressive: 25
+Plains:
+  key_defeated_goblinking:
+   effect:
+    Aggressive: 25
+Mistlands:
+  key_defeated_queen:
+   effect:
+    Aggressive: 25
+Ashlands:
+  key_defeated_fader:
+   effect:
+    Aggressive: 25
