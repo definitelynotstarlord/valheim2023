@@ -2,7 +2,7 @@
   {
     "prefab": "Tar",
     "stack": 50,
-    "price": 300,
+    "price": 400,
     "requiredGlobalKey": "defeated_goblinking"
   },
   {
