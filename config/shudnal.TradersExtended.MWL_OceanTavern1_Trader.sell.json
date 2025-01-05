@@ -12,47 +12,47 @@
   {
     "prefab": "Fish3",
     "stack": 1,
-    "price": 30
+    "price": 40
   },
   {
-    "prefab": "Fish4",
+    "prefab": "Fish4_cave",
     "stack": 1,
-    "price": 100
+    "price": 150
   },
   {
     "prefab": "Fish5",
     "stack": 1,
-    "price": 10
+    "price": 30
   },
   {
     "prefab": "Fish6",
     "stack": 1,
-    "price": 30
+    "price": 50
   },
   {
     "prefab": "Fish7",
     "stack": 1,
-    "price": 40
+    "price": 60
   },
   {
     "prefab": "Fish8",
     "stack": 1,
-    "price": 30
+    "price": 50
   },
   {
     "prefab": "Fish9",
     "stack": 1,
-    "price": 50
+    "price": 40
   },
   {
     "prefab": "Fish10",
     "stack": 1,
-    "price": 30
+    "price": 70
   },
   {
     "prefab": "Fish11",
     "stack": 1,
-    "price": 100
+    "price": 120
   },
   {
     "prefab": "Fish12",
