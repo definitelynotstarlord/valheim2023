@@ -1,25 +1,38 @@
 # valheim2023
 
-I am just uploading all of my configs here to keep better track of the changes I make to our family and friends Valheim server.
+I am just uploading all of my configs here to keep better track of the changes I make to our family and friends Valheim server. I can also reuse a lot of this work later on for our next playthroughs.
 
-This pack is built off Majestic's awesome RelicHeim modpack. I have made various changes to his exeptional work as well as adding in many more mods. These are just server-side mods.
+This pack is built on Majestic's awesome RelicHeim modpack. I have made various changes to his exeptional work as well as adding in many more mods. These are just server-side mods.
 
-This is the list of mods (both client and server) that I manage with an r2modman code to share.
+### Server-side and Client-side mods
 As of 1.4.25
 
 denikson-BepInExPack_Valheim-5.4.2202
+
 WackyMole-WackysDatabase-2.4.46
+
 WackyMole-WackyEpicMMOSystem-1.9.27
+
 ValheimModding-Jotunn-2.23.0
+
 Therzie-Warfare-1.8.6
+
 Therzie-Monstrum-1.4.9
+
 Therzie-Armory-1.3.0
+
 TastyChickenLegs-NoSmokeStayLit-2.3.4
+
 Smoothbrain-SmartSkills-1.0.2
+
 Smoothbrain-SailingSpeed-1.0.3
+
 Smoothbrain-Sailing-1.1.7
+
 Smoothbrain-PassivePowers-1.1.2
+
 Smoothbrain-PackHorse-1.0.3
+
 Smoothbrain-Mining-1.1.5
 Smoothbrain-Lumberjacking-1.0.5
 Smoothbrain-Groups-1.2.8
