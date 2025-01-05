@@ -1,0 +1,4 @@
+﻿PrintComment: ThisGoesHere is moving edited files
+CopyFile:
+- From: config\_RelicHeimFiles\ThisGoesHereMovedFile\translations.json
+  To: plugins\RandyKnapp-EpicLoot\translations.json
