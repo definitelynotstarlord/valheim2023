@@ -1,13 +1,8 @@
 [
   {
-    "prefab": "SharpeningStone",
-    "stack": 1,
-    "price": 10
-  },
-  {
     "prefab": "TrophyGoblin",
     "stack": 1,
-    "price": 20
+    "price": 50
   },
   {
     "prefab": "TrophyGoblinBrute",
@@ -23,15 +18,5 @@
     "prefab": "Needle",
     "stack": 1,
     "price": 2
-  },
-  {
-    "prefab": "LoxPelt",
-    "stack": 1,
-    "price": 5
-  },
-  {
-    "prefab": "LoxMeat",
-    "stack": 1,
-    "price": 3
   }
 ]
