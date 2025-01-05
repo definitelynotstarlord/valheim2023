@@ -17,6 +17,11 @@
   {
     "prefab": "Needle",
     "stack": 1,
-    "price": 2
+    "price": 3
+  },
+  {
+    "prefab": "Tar",
+    "stack": 1,
+    "price": 10
   }
 ]
