@@ -1,11 +1,5 @@
 [
   {
-    "prefab": "FishCooked",
-    "stack": 1,
-    "price": 30,
-    "requiredGlobalKey": "defeated_gdking"
-  },
-  {
     "prefab": "SerpentMeatCooked",
     "stack": 1,
     "price": 40,
