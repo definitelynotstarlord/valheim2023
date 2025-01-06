@@ -7,11 +7,11 @@
       "Path": "$.DisenchantCosts",
       "Action": "Overwrite",
       "Value": {
-          "Magic": 		[{ "Item": "ForestToken", "Amount": 4 }],
-          "Rare": 		[{ "Item": "IronBountyToken", "Amount": 5 }],
-          "Epic":		[{ "Item": "IronBountyToken", "Amount": 6 }],
-          "Legendary":	[{ "Item": "GoldBountyToken", "Amount": 6 }],
-          "Mythic":		[{ "Item": "GoldBountyToken", "Amount": 7 }]
+          "Magic": 		[{ "Item": "ForestToken", "Amount": 3 }],
+          "Rare": 		[{ "Item": "IronBountyToken", "Amount": 3 }],
+          "Epic":		[{ "Item": "IronBountyToken", "Amount": 4 }],
+          "Legendary":	[{ "Item": "GoldBountyToken", "Amount": 3 }],
+          "Mythic":		[{ "Item": "GoldBountyToken", "Amount": 4 }]
         }
     },
 	
