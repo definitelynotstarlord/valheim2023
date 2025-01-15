@@ -1614,8 +1614,15 @@
         "Mythic"    : 	{ "MinValue" : 12, 	"MaxValue" : 18,   "Increment" : 0.5 }
        }
     },
-	
-	
+
+    {
+      "Path": "$.MagicItemEffects[?(@.Type == 'FeatherFall')].Requirements.AllowedItemTypes", 
+      "Action": "Overwrite",
+      "Value": [
+          "Shoulder"
+        ]
+	},	
+      	
 	{
       "Path": "$.MagicItemEffects[?(@.Type == 'ModifyDiscoveryRadius')].Requirements.AllowedItemTypes", 
       "Action": "Overwrite",

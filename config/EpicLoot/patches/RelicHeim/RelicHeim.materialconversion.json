@@ -488,6 +488,15 @@
       ]
     },
 	{
+      "Name": "Recipe_FenrirArtifact_TW",
+      "Product": "Coins",
+      "Amount": 30, 
+      "Type": "Junk", 
+      "resources": [
+        { "item": "FenrirArtifact_TW", "amount": 1 }
+      ]
+    },
+	{
       "Name": "Recipe_ForestToken",
       "Product": "ForestToken",
       "Amount": 1, 

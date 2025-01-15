@@ -517,9 +517,8 @@
         "AllowedItemTypes": [ "Utility" ]
       }, 
       "GuaranteedMagicEffects": [
-        { "Type": "Luck" },
         { "Type": "Riches" },
-        { "Type": "DoubleJump" }
+        { "Type": "AddCarryWeight" }
       ]
     },
 	{
@@ -1006,7 +1005,7 @@
 		}, 
 	  "GuaranteedEffectCount": 5,
       "GuaranteedMagicEffects": [
-        { "Type": "AddFrostDamage", "Values": { "MinValue": 5, "MaxValue": 10, "Increment": 1 } }
+        { "Type": "AddFrostDamage", "Values": { "MinValue": 6, "MaxValue": 12, "Increment": 1 } }
 	  ]
     }
 	},
@@ -1216,8 +1215,8 @@
         "ExDeathCape"
       ],
       "SetBonuses": [
-        { "Count": 2, "Effect": { "Type": "AddFrostDamage", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } } },
-        { "Count": 2, "Effect": { "Type": "AddFireDamage", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
+        { "Count": 2, "Effect": { "Type": "AddFrostDamage", "Values": { "MinValue" : 12, "MaxValue" : 12, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "AddFireDamage", "Values": { "MinValue": 12, "MaxValue": 12, "Increment": 1 } } },
         { "Count": 3, "Effect": { "Type": "ModifyEitrRegen", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } }
       ]
     }
@@ -1237,7 +1236,7 @@
         "AnimasLegs"
       ],
       "SetBonuses": [
-        { "Count": 2, "Effect": { "Type": "ModifyDamage", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } } },
+        { "Count": 2, "Effect": { "Type": "ModifyDamage", "Values": { "MinValue" : 12, "MaxValue" : 12, "Increment" : 1 } } },
         { "Count": 2, "Effect": { "Type": "ModifyDamageLowHealth", "Values": { "MinValue": 25, "MaxValue": 75, "Increment": 1 } } },
 		{ "Count": 3, "Effect": { "Type": "Berserker" } }
       ]
@@ -1261,7 +1260,7 @@
       "SetBonuses": [
         { "Count": 2, "Effect": { "Type": "ModifyAttackStaminaUse", "Values": { "MinValue" : 5, "MaxValue" : 5, "Increment" : 1 } } },
         { "Count": 2, "Effect": { "Type": "AvoidDamageTaken", "Values": { "MinValue": 5, "MaxValue": 5, "Increment": 1 } } },
-        { "Count": 3, "Effect": { "Type": "ModifyElementalDamage", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
+        { "Count": 3, "Effect": { "Type": "ModifyElementalDamage", "Values": { "MinValue": 12, "MaxValue": 12, "Increment": 1 } } },
         { "Count": 4, "Effect": { "Type": "FrostDamageAOE", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } }
       ]
     }
@@ -1283,7 +1282,7 @@
       "SetBonuses": [
         { "Count": 2, "Effect": { "Type": "ModifyAttackSpeed", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } } },
         { "Count": 2, "Effect": { "Type": "IncreaseStamina", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
-        { "Count": 3, "Effect": { "Type": "Luck", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } }
+        { "Count": 3, "Effect": { "Type": "Riches", "Values": { "MinValue": 5, "MaxValue": 5, "Increment": 1 } } }
       ]
     }
 	},
@@ -1304,7 +1303,7 @@
       "SetBonuses": [
         { "Count": 2, "Effect": { "Type": "ModifyBackstab", "Values": { "MinValue" : 10, "MaxValue" : 10, "Increment" : 1 } } },
         { "Count": 2, "Effect": { "Type": "Opportunist", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } },
-        { "Count": 3, "Effect": { "Type": "Luck", "Values": { "MinValue": 10, "MaxValue": 10, "Increment": 1 } } }
+        { "Count": 3, "Effect": { "Type": "Riches", "Values": { "MinValue": 5, "MaxValue": 5, "Increment": 1 } } }
       ]
     }
    }

@@ -93,22 +93,22 @@
 	{
       "ItemTypes" : [ "Trophy" ],
       "ItemNames" : [ "$item_trophy_eikthyr", "$trophy_asmodeus_TW" ],
-      "Products" : [ { "Item": "ShardMagic", "Amount": 1 } ]
+      "Products" : [ { "Item": "ShardMagic", "Amount": 2 } ]
 	},
 	{
       "ItemTypes" : [ "Trophy" ],
       "ItemNames" : [ "$item_trophy_elder", "$trophy_svalt_TW", "$item_trophy_skeleton_hildir" ],
-      "Products" : [ { "Item": "ShardRare", "Amount": 1 } ]
+      "Products" : [ { "Item": "ShardRare", "Amount": 2 } ]
 	},
 	{
       "ItemTypes" : [ "Trophy" ],
       "ItemNames" : [ "$item_trophy_dragonqueen", "$item_trophy_bonemass", "$trophy_vrykolathas_TW", "$item_trophy_cultist_hildir" ],
-      "Products" : [ { "Item": "ShardEpic", "Amount": 1 } ]
+      "Products" : [ { "Item": "ShardEpic", "Amount": 2 } ]
 	},
 	{
       "ItemTypes" : [ "Trophy" ],
       "ItemNames" : [ "$item_trophy_goblinking", "$item_trophy_brutebro", "$item_trophy_shamanbro", "$item_trophy_seekerqueen" ],
-      "Products" : [ { "Item": "ShardLegendary", "Amount": 1 } ]
+      "Products" : [ { "Item": "ShardLegendary", "Amount": 2 } ]
     },
     {
       "ItemTypes" : [ "Trophy" ],
@@ -125,7 +125,7 @@
     {
       "ItemNames" : ["$item_fader_drop"],
       "Products" : [
-        { "Item": "ShardMythic",		"Amount": 3 }
+        { "Item": "ShardLegendary",		"Amount": 2 }
        ]
       }
 	 ]

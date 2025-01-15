@@ -18,9 +18,9 @@
   "Path": "$.MaximumFeatureLevels",
   "Action": "Overwrite",
   "Value": {
-    "Sacrifice": 6,
+    "Sacrifice": 7,
     "ConvertMaterials": 0,
-    "Enchant": 6,
+    "Enchant": 7,
     "Augment": 6,
     "Disenchant": 6
 	}
@@ -29,11 +29,11 @@
   "Path": "$.UpgradeValues",
   "Action": "Overwrite",
   "Value": {
-    "Sacrifice": 		[ [0], [4], [8], [12], [16], [20], [25] ],
+    "Sacrifice": 		[ [0], [4], [8], [12], [16], [20], [25], [30] ],
     "ConvertMaterials": [ [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0] ],
-    "Enchant": 			[ [0, 0], [2, 4], [3, 6], [4, 8], [5, 10], [6, 12], [8, 16] ],
+    "Enchant": 			[ [0, 0], [2, 4], [3, 6], [4, 8], [5, 10], [6, 12], [8, 16], [10, 18] ],
     "Augment": 			[ [2, 0], [2, 0], [2, 0], [3, 0], [3, 0], [4, 0], [4, 0] ],
-    "Disenchant": 		[ [1, 0], [4, 0], [8, 0], [12, 1], [16, 2], [20, 3], [25, 4] ]
+    "Disenchant": 		[ [1, 0], [4, 0], [8, 1], [12, 1], [16, 2], [20, 2], [25, 3] ]
 	}
 	},
 	{
@@ -47,7 +47,8 @@
       [ { "Item": "SurtlingCore", "Amount": 15 }, { "Item": "mmo_orb4", "Amount": 2 }, { "Item": "TrophySGolem", "Amount": 2 } ],
       [ { "Item": "SurtlingCore", "Amount": 20 }, { "Item": "mmo_orb5", "Amount": 2 }, { "Item": "TrophyGoblinBrute", "Amount": 2 } ],
       [ { "Item": "SurtlingCore", "Amount": 25 }, { "Item": "mmo_orb6", "Amount": 2 }, { "Item": "TrophySeekerBrute", "Amount": 2 } ],
-      [ { "Item": "MoltenCore",   "Amount": 10 }, { "Item": "mmo_orb6", "Amount": 2 }, { "Item": "TrophyFallenValkyrie", "Amount": 2 } ]
+      [ { "Item": "MoltenCore",   "Amount": 10 }, { "Item": "mmo_orb7", "Amount": 2 }, { "Item": "TrophyFallenValkyrie", "Amount": 2 } ],
+      [ { "Item": "RuneWrath_TW", "Amount": 10 }, { "Item": "mmo_orb8", "Amount": 2 }, { "Item": "TrophySurtrLegionnaire_TW", "Amount": 2 } ]
     ],
     "ConvertMaterials": [
       [ { "Item": "Wood", "Amount": 20 }, { "Item": "Resin", "Amount": 10 }, { "Item": "Coal", "Amount": 5 } ],
@@ -65,7 +66,8 @@
       [ { "Item": "DustRare", "Amount": 10 },			{ "Item": "IronBountyToken", "Amount": 20 }, 	{ "Item": "Silver", "Amount": 20 } ],
       [ { "Item": "DustEpic", "Amount": 10 }, 			{ "Item": "GoldBountyToken", "Amount": 10 }, 	{ "Item": "BlackMetal", "Amount": 20 } ],
       [ { "Item": "DustLegendary", "Amount": 10 }, 		{ "Item": "GoldBountyToken", "Amount": 20 }, 	{ "Item": "Eitr", "Amount": 20 } ],
-      [ { "Item": "DustMythic", "Amount": 10 }, 		{ "Item": "GoldBountyToken", "Amount": 30 }, 	{ "Item": "FlametalNew", "Amount": 20 } ]
+      [ { "Item": "DustMythic", "Amount": 10 }, 		{ "Item": "GoldBountyToken", "Amount": 30 }, 	{ "Item": "FlametalNew", "Amount": 20 } ],
+      [ { "Item": "DustMythic", "Amount": 20 }, 		{ "Item": "GoldBountyToken", "Amount": 40 }, 	{ "Item": "ThoradusBar_TW", "Amount": 20 } ]
     ],
     "Augment": [
       [ { "Item": "InfusedCrystal_JH", "Amount": 5 }, 	{ "Item": "GreydwarfEye", "Amount": 5 },		{ "Item": "Coins", "Amount": 50 } ],
@@ -77,13 +79,13 @@
       [ { "Item": "ForestToken", "Amount": 60 },		{ "Item": "MorgenHeart", "Amount": 10 },		{ "Item": "Coins", "Amount": 700 } ]
     ],
     "Disenchant": [
-      [ { "Item": "InfusedCrystal_JH", "Amount": 5 },	{ "Item": "Coins", "Amount": 500 } ],
-      [ { "Item": "InfusedCrystal_JH", "Amount": 10 },	{ "Item": "Coins", "Amount": 2000 } ],
-      [ { "Item": "InfusedCrystal_JH", "Amount": 15 },	{ "Item": "Coins", "Amount": 4000 } ],
-      [ { "Item": "InfusedCrystal_JH", "Amount": 20 },	{ "Item": "Coins", "Amount": 6000 } ],
-      [ { "Item": "InfusedCrystal_JH", "Amount": 25 },	{ "Item": "Coins", "Amount": 8000 } ],
-      [ { "Item": "InfusedCrystal_JH", "Amount": 30 },	{ "Item": "Coins", "Amount": 10000 } ],
-      [ { "Item": "InfusedCrystal_JH", "Amount": 35 },	{ "Item": "Coins", "Amount": 12000 } ]
+      [ { "Item": "InfusedCrystal_JH", "Amount": 5 },	{ "Item": "Coins", "Amount": 200 } ],
+      [ { "Item": "InfusedCrystal_JH", "Amount": 10 },	{ "Item": "Coins", "Amount": 1000 } ],
+      [ { "Item": "InfusedCrystal_JH", "Amount": 15 },	{ "Item": "Coins", "Amount": 2000 } ],
+      [ { "Item": "InfusedCrystal_JH", "Amount": 20 },	{ "Item": "Coins", "Amount": 3000 } ],
+      [ { "Item": "InfusedCrystal_JH", "Amount": 25 },	{ "Item": "Coins", "Amount": 4000 } ],
+      [ { "Item": "InfusedCrystal_JH", "Amount": 30 },	{ "Item": "Coins", "Amount": 5000 } ],
+      [ { "Item": "InfusedCrystal_JH", "Amount": 35 },	{ "Item": "Coins", "Amount": 6000 } ]
     ]
    }
   }
