@@ -2,3 +2,4 @@
 DeleteFile:
 - config\CreatureConfig.yml
 - config\ItemConfig.yml
+- config\wackysDatabase\Recipes\_RelicHeimWDB2.0\zOther\Recipe_ResetTrophy.yml
