@@ -1,0 +1,17 @@
+name: BestialRobes
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 4
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- WolfPelt:20:5:False
+- AT_HasTamed_Item:10:5:False
+- LoxPelt:20:5:False
+- LinenThread:20:4:False
+- Needle:50:3:False

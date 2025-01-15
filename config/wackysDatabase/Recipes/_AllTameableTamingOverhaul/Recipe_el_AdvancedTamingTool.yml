@@ -1,0 +1,17 @@
+name: el_AdvancedTamingTool
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- RoundLog:1:0:False
+- ElderBark:1:0:False
+- Crystal:30:5:False
+- Silver:10:0:False
+- JuteRed:10:0:False

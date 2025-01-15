@@ -1,0 +1,16 @@
+name: TamingHat
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+disabledUpgrade: false
+requireOnlyOneIngredient: false
+upgrade_reqs: []
+reqs:
+- TrollHide:20:5:False
+- AT_HasTamed_Item:10:6:False
+- Guck:20:5:False
+- RottenPelt_TW:20:5:False
